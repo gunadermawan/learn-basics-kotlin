@@ -1,2 +1,4 @@
-# BelajarBareng-KotlinFundamental
-berisi file codingan materi belajar kotlin fundamental
+# BelajarBareng-Kotlin
+berisi file codingan materi belajar kotlin sebagai dasar android developer
+BelajarBerkaryaBerbagi
+
