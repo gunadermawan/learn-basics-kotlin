@@ -1,9 +1,11 @@
 package com.gunder.kotlin
 
+import java.text.SimpleDateFormat
+import java.util.*
+
 fun main() {
-    val open = 7
-    val close = 5
-    val now = 23
-    val isOpen = now < open || now > close
-    print(!isOpen)
+    val Am = SimpleDateFormat("HH:mm:ss", Locale.ENGLISH)
+    Am.timeZone =   TimeZone.getDefault()
+    Am.timeZone = TimeZone.getTimeZone("UTC")
+    println(Am)
 }
