@@ -10,7 +10,6 @@ class Animal(val name: String, val age: Int){
 }
 
 fun main() {
-//    inisialisai
     val cat = Animal("kucing miaw", 2)
     cat.eat()
     cat.age()
