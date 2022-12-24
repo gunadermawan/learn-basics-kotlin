@@ -6,7 +6,15 @@ open class Animal(val name:String, val age:Int) {
     }
 
     open fun eat(){
-        print("$name sedang tidur")
+        println("$name sedang tidur")
+    }
+
+    open fun eat(typeFood: String){
+        println("$name cemplin sedang makan $typeFood")
+    }
+
+    open fun eat(typeFood: String, quantity:Int) {
+        println("$name sedang makan sebanuyak $quantity")
     }
 
     open fun age(){

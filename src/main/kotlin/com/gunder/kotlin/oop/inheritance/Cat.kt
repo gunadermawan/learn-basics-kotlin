@@ -10,10 +10,10 @@ class Cat(val pName: String, val pAge: Int) : Animal(pName, pAge) {
     }
 
     override fun eat() {
-        println("$name sedang makan!")
+        println("$pName sedang makan!")
     }
 
     override fun age() {
-        println("$name sekarang berusia $age tahun")
+        println("$pAge sekarang berusia $age tahun")
     }
 }
