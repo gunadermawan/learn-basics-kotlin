@@ -5,6 +5,10 @@ open class Animal(val name: String, val age: Int, val isCarnivore: Boolean) {
         println("$name is eat now")
     }
 
+    open fun eat(typeFood: String, qty: Int) {
+        println("$name is eat now with $typeFood and $qty\'s")
+    }
+
     open fun sleep() {
         println("$name is sleep now")
     }
