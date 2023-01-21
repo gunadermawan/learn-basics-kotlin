@@ -1,19 +1,11 @@
 package com.gunder.kotlin.oop.inheritance
 
-class Cat(val pName: String, val pAge: Int) : Animal(pName, pAge) {
-    fun play() {
-        println("$pName playing with human")
+class Cat(name: String, age: Int, isCarnivore: Boolean) : Animal(name, age, isCarnivore) {
+    override fun eat() {
+        println("$name is eat now")
     }
 
     override fun sleep() {
-        println("$pName sedang tidur!")
-    }
-
-    override fun eat() {
-        println("$pName sedang makan!")
-    }
-
-    override fun age() {
-        println("$pAge sekarang berusia $age tahun")
+        println("$name is sleep now")
     }
 }
